@@ -3,7 +3,7 @@
         'name' => 'drupal/legacy-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '0c968a0a64d2b33f84805990b2c0f92865e6285a',
+        'reference' => '400238be0963af5e742ddbeb2c5629b66addf2f1',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -559,7 +559,7 @@
         'drupal/legacy-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '0c968a0a64d2b33f84805990b2c0f92865e6285a',
+            'reference' => '400238be0963af5e742ddbeb2c5629b66addf2f1',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -582,6 +582,15 @@
             'replaced' => array(
                 0 => '9.4.1',
             ),
+        ),
+        'drupal/media_entity_audio' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'reference' => '8.x-3.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/media_entity_audio',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/media_library' => array(
             'dev_requirement' => false,

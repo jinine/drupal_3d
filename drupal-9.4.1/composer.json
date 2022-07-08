@@ -22,7 +22,8 @@
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
-        "drupal/d8w3css": "2.0"
+        "drupal/d8w3css": "2.0",
+        "drupal/media_entity_audio": "3.0"
     },
     "conflict": {
         "drupal/drupal": "*"
